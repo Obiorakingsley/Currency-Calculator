@@ -16,7 +16,9 @@ A **sleek two-in-one web app** featuring a **smart calculator** 🤖 and **real-
 - 🚦 **Error prevention** → Stops invalid submits like `5+/`
 - 📱 **Custom keypad**
 
-![Calculator Preview](images/calculator.png)
+#### 📸 **Calculator Page Preview** <img src="images/calculator-screenshot.png" width="300" alt="Calculator Screenshot">
+
+---
 
 ### 💰 **Currency Converter Page**
 
@@ -26,7 +28,7 @@ A **sleek two-in-one web app** featuring a **smart calculator** 🤖 and **real-
 - 📡 **Offline-friendly** → Shows helpful errors when offline
 - 🏷️ **Dynamic descriptions** → Shows full currency names (USD → US Dollar)
 
-![Currency Preview](images/currency-s.png)
+#### 📸 **Currency Page Preview** <img src="images/currency-screenshot.png" width="300" alt="Calculator Screenshot">
 
 ---
 
