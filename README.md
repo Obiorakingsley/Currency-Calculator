@@ -49,7 +49,7 @@ A **sleek two-in-one web app** featuring a **smart calculator** 🤖 and **real-
 ## 🚀 Installation
 
 ```bash
-git clone https://github.com/Obiorakingsley/currency-calculator.git
+git clone https://github.com/Obiorakingsley/Currency-Calculator.git
 cd currency-calculator
 # No dependencies! Just open index.html 🎉
 ```
