@@ -12,6 +12,7 @@ const del = document.querySelector('.delete')
 
 const buttonElement = document.querySelectorAll('.calculation');
 
+inputElement.value = '';
 
 solve.addEventListener('click', () => {
   if(!calc || /[+\-*/.]$/.test(calc)){
