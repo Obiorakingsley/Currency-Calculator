@@ -16,6 +16,8 @@ A **sleek two-in-one web app** featuring a **smart calculator** 🤖 and **real-
 - 🚦 **Error prevention** → Stops invalid submits like `5+/`
 - 📱 **Custom keypad**
 
+![Calculator Preview](images/calculator.png)
+
 ### 💰 **Currency Converter Page**
 
 - 🌐 **160+ currencies** with live rates via [ExchangeRate-API](https://www.exchangerate-api.com/)
@@ -23,6 +25,8 @@ A **sleek two-in-one web app** featuring a **smart calculator** 🤖 and **real-
 - 📱 **Mobile-friendly keypad** → No annoying keyboard popups!
 - 📡 **Offline-friendly** → Shows helpful errors when offline
 - 🏷️ **Dynamic descriptions** → Shows full currency names (USD → US Dollar)
+
+![Currency Preview](images/currency-s.png)
 
 ---
 
