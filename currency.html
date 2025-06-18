@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Convert currency</title>
+  <link rel="stylesheet" href="main.css">
+  <script src="currency.js" defer></script>
+</head>
+<body>  
+  <div id="wrapper-currency">
+      <div class="display-calc">
+        <div class="convert-container">
+          <div class="nav-bar">
+            <div class="nav-start">
+              <a href="index.html" class="nav-start">
+                <img src="images/left-arrow.png" alt="" width="25" height="25">
+              </a>
+              <h1>Currency Converter</h1>
+            </div>
+            <div id="menu">
+              <img id="menu-img" src="images/navigation.png" alt="" width="32" height="32">
+              <div id="menu-list" class="hide">
+                <ul>
+                  <li id="menu-action">Update exchange rate</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="convert-details">
+            <div class="display-convert-from">
+              <select name="select-from" id="selectFrom">
+                <option value="EUR">Euro</option>
+              </select>
+              <div>
+                <input id="amount-input" value="1" type="text" autocomplete="off" placeholder="Enter amount">
+                <div id="from-description"></div>
+              </div>
+            </div>
+
+            <div id="sort-icon">
+              <img id="swap" src="images/sort.png" alt="" width="20" height="20">
+            </div>
+            
+            <div class="display-convert-to">
+              <select name="select-to" id="selectTo">
+                <option value="USD">USD - United State Dollar</option>
+              </select>
+              <div>
+                <input type="text" id="inputToCurrency" value="0" autocomplete="off">
+                <div id="to-description"></div>
+              </div>
+            </div>
+          </div>
+            <div id="outputConvert"></div>
+        </div>
+      </div>
+
+      <div class="calc-operators">
+        <div class="grid-container">
+          <div class="grid">
+            <button class="button">7</button>
+            <button class="button">4</button>
+            <button class="button">1</button>
+            <button class="button">00</button>
+            
+          </div>
+
+          <div class="grid">
+            <button class="button">8</button>
+            <button class="button">5</button>
+            <button class="button">2</button>
+            <button class="button">0</button>
+          </div>
+
+          <div class="grid">
+            <button class="button">9</button>
+            <button class="button">6</button>
+            <button class="button">3</button>
+            <button class="button">.</button>
+          </div>
+
+          <div class="flex">
+            <button class="calculation operator button">C</button>
+            <button class="delete">
+              <img src="images/delete.png" alt="" width="20" height="20">
+            </button>
+          </div>
+        </div>  
+      </div>
+  </div>
+</body>
+</html>
