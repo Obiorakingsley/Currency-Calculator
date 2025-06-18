@@ -2,7 +2,7 @@
 
 A **sleek two-in-one web app** featuring a **smart calculator** 🤖 and **real-time currency converter** 🌍, built with vanilla JavaScript.
 
-![App Preview]()
+## [Live Demo](https://currency-calculator-obiora-kingsleys-app.vercel.app/)
 
 ---
 
