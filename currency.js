@@ -54,11 +54,11 @@ const option1Description = document.getElementById('from-description')
 const option2Description = document.getElementById('to-description')
 const apiKey = '059143138d035258f5ed2a72';
 
+// Frtch currency rates
 
 async function getCurrencyOption() {
 
   try{
-
 
     const response = await fetch(`https://v6.exchangerate-api.com/v6/${apiKey}/codes`);
 
@@ -70,6 +70,8 @@ async function getCurrencyOption() {
     result.textContent = 'Faild to fetch rates, pls try again';
   }
 };
+
+// Add currency pair to get currency rates
 
 async function getCurencyRate(fromCurrency, toCurrency, amount){
   const convertUrl = `https://v6.exchangerate-api.com/v6/${apiKey}/pair/${fromCurrency}/${toCurrency}`;
@@ -87,6 +89,8 @@ async function getCurencyRate(fromCurrency, toCurrency, amount){
   }
 
 };
+
+//append selectOptions to select
 
 async function appendSelectOptions(){
 
@@ -138,6 +142,7 @@ swapCurrency.addEventListener('click', () => {
   appendSelectOptions()
 })
 
+// Render currency and rates
 
 async function setupCurrency(){
   try{

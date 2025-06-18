@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scaleable=no">
   <title>Calculator</title>
   <link rel="stylesheet" href="main.css">
   <script src="calculator.js" defer></script>
@@ -23,7 +23,7 @@
           </nav>
         </div>
         <div class="calc">
-          <input id="input-calc" autocomplete="off" autofocus>
+          <input id="input-calc" autocomplete="off" autofocus readonly>
           <div id="output-calc"></div>
         </div>
       </div>
@@ -32,38 +32,38 @@
         <div class="grid-container">
           <div class="grid">
             <button class="calculation operator">C</button>
-            <button class="calculation">7</button>
-            <button class="calculation">4</button>
-            <button class="calculation">1</button>
-            <button class="calculation">00</button>
+            <button class="calculation" data-value="7">7</button>
+            <button class="calculation" data-value="4">4</button>
+            <button class="calculation" data-value="1">1</button>
+            <button class="calculation" data-value="00">00</button>
             
           </div>
 
           <div class="grid">
-            <button class="calculation operator">%</button>
-            <button class="calculation">8</button>
-            <button class="calculation">5</button>
-            <button class="calculation">2</button>
-            <button class="calculation">0</button>
+            <button class="calculation operator" data-value="%">%</button>
+            <button class="calculation" data-value="8">8</button>
+            <button class="calculation" data-value="5">5</button>
+            <button class="calculation" data-value="2">2</button>
+            <button class="calculation" data-value="0">0</button>
           </div>
 
           <div class="grid">
             <button id="operator" value="*" class="x-icon calculation-multiply"><img src="images/x.png" alt="" width="25" height="25"></button>
-            <button class="calculation">9</button>
-            <button class="calculation">6</button>
-            <button class="calculation">3</button>
-            <button class="calculation">.</button>
+            <button class="calculation" data-value="9">9</button>
+            <button class="calculation" data-value="6">6</button>
+            <button class="calculation" data-value="3">3</button>
+            <button class="calculation" data-value=".">.</button>
           </div>
 
           <div class="grid">
             <button class="delete">
               <img src="images/delete.png" alt="" width="20" height="20">
             </button>
-            <button class="calculation operator">/</button>
-            <button class="calculation operator minus">-</button>
-            <button class="calculation operator">+</button>
+            <button class="calculation operator" data-value="/">/</button>
+            <button class="calculation operator minus" data-value="-">-</button>
+            <button class="calculation operator" data-value="+">+</button>
             <div class="eval-container">
-              <button id="solve">=</button>
+              <button id="solve" data-value="=">=</button>
             </div>
           </div>
         </div>  

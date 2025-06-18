@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <title>Convert currency</title>
   <link rel="stylesheet" href="main.css">
   <script src="currency.js" defer></script>
@@ -33,7 +33,7 @@
                 <option value="EUR">Euro</option>
               </select>
               <div>
-                <input id="amount-input" value="1" type="text" autocomplete="off" placeholder="Enter amount">
+                <input id="amount-input" value="1" type="text" autocomplete="off" placeholder="Enter amount" readonly>
                 <div id="from-description"></div>
               </div>
             </div>
@@ -59,25 +59,25 @@
       <div class="calc-operators">
         <div class="grid-container">
           <div class="grid">
-            <button class="button">7</button>
-            <button class="button">4</button>
-            <button class="button">1</button>
-            <button class="button">00</button>
+            <button class="button" data-value="7">7</button>
+            <button class="button" data-value="4">4</button>
+            <button class="button" data-value="1">1</button>
+            <button class="button" data-value="00">00</button>
             
           </div>
 
           <div class="grid">
-            <button class="button">8</button>
-            <button class="button">5</button>
-            <button class="button">2</button>
-            <button class="button">0</button>
+            <button class="button" data-value="8">8</button>
+            <button class="button" data-value="5">5</button>
+            <button class="button" data-value="2">2</button>
+            <button class="button" data-value="0">0</button>
           </div>
 
           <div class="grid">
-            <button class="button">9</button>
-            <button class="button">6</button>
-            <button class="button">3</button>
-            <button class="button">.</button>
+            <button class="button" data-value="9">9</button>
+            <button class="button" data-value="6">6</button>
+            <button class="button" data-value="3">3</button>
+            <button class="button" data-value=".">.</button>
           </div>
 
           <div class="flex">
