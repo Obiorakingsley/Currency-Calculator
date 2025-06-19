@@ -11,18 +11,20 @@ body{
   font-size: 2rem;
   display: grid;
   place-content: center;
+  height: 100vh;
 }
 
 #form-Calc{
-  height: 100vh;
   border: 3px solid rgb(73, 73, 73);
-  
+  height: 100vh;
 }
 
 #container-calc{
   height: 100%;
-  min-height: 400px;
   max-width: 768px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 
 }
 
@@ -41,7 +43,6 @@ body{
 
 
 .display-calc{
-  height: 40%;
   padding: 1rem;
   background-color: rgb(0, 0, 0);
   display: flex;
@@ -53,6 +54,7 @@ body{
 
 .calc{
   text-align: right;
+  margin-top: 1.5rem;
   max-width: 100%;
 }
 
@@ -335,7 +337,7 @@ select{
 
 /*MEDIA QUERIES*/
 
-@media screen and (min-height: 600px){
+@media screen and (min-width: 600px){
   #outputConvert{
   margin: 0;
   font-size: .9rem;
@@ -354,6 +356,10 @@ select{
 
   input{
     font-size: 1.5rem;
+  }
+
+  .calc{
+    margin-top: 1.5rem;
   }
 
   #from-description, #to-description{
