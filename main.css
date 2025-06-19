@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+html{
+  height: 100vh;
+  width: 100%;
+}
+
 body{
   font-family: Arial, Helvetica, sans-serif;
   background-color: #000000;
@@ -32,7 +37,7 @@ body{
   height: 100%;
   max-width: 768px;
   display: grid;
-  grid-template-rows: 40% 60%;
+  grid-template-rows: 1fr 1.5fr;
   justify-content: space-between;
 
 }
@@ -159,7 +164,7 @@ body{
 /* CURRENCY - STYLE*/
 
 #wrapper-currency{
-  width: 100%;
+  width: 100vw;
   height: 100vh;
   border: 3px solid rgb(73, 73, 73);
   max-width: 768px;
